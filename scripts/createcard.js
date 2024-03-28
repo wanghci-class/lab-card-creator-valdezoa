@@ -2,23 +2,23 @@ const prev = document.getElementById("preview-button");
 prev.addEventListener ("click", () => {
     const title = document.querySelector(".title-text");
     const title_val = document.getElementById("title");
-    title.innerHTML = title_val.value;
+    title.textContent = title_val.value;
 
     const subtitle = document.querySelector(".subtitle-text");
     const subtitle_val = document.getElementById("subtitle");
-    subtitle.innerHTML = subtitle_val.value;
+    subtitle.textContent = subtitle_val.value;
 
     const to = document.querySelector(".to-text");
     const to_val = document.getElementById("to");
-    to.innerHTML = to_val.value;
+    to.textContent = to_val.value;
 
     const message = document.querySelector(".message-text");
     const message_val = document.getElementById("message");
-    message.innerHTML = message_val.value;
+    message.textContent = message_val.value;
 
     const from = document.querySelector(".from-text");
     const from_val = document.getElementById("from");
-    from.innerHTML = from_val.value;
+    from.textContent = from_val.value;
 });
 
 const sub = document.getElementById("submit-button");
